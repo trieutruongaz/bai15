@@ -1,0 +1,228 @@
+/* General Styles */
+.wrapper h1,
+.wrapper h3 {
+  text-align: center;
+}
+
+.wrapper h1 {
+  color: black; /* Assuming you want black headings */
+}
+
+.wrapper h3 {
+  font-size: 30px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-edit,
+.container-app {
+  width: auto;
+  height: auto;
+  background-color: rgb(245, 247, 246);
+  padding: 10px;
+  margin-top: auto;
+  border-radius: 20px;
+  border: 1px solid black;
+}                             
+
+  .container-app {
+    align-items: center;
+  }
+
+/* Input Styles */
+input[type="text"] {
+  width: 40%;
+  height: 25px;
+  border-radius: 4px; 
+  color: black;
+  display: flex;
+}
+form input[type="text"] {
+  margin-left: 30% ;
+}
+input[type="submit"] {
+  height: 22px;
+  width: 22%;
+  margin-top: 5px;
+  border-radius: 4px;
+  background-color: white;
+}
+form label [for="title"]{
+  margin-left: 30%;
+}
+/* Book List Styles */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.book-list .image {
+  padding: 10px;
+  border: 1px solid black;
+  height: 300px;
+}
+
+.delete {
+  width: 45%;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Container Styles */
+.container {
+  background-color: rgba(254, 253, 255, 0.625);
+  border-radius: 11px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.create {
+  align-items: center;
+}
+
+.container p {
+  text-align: center;
+}
+
+/* Search and Pagination Styles */
+.search-container {
+  width: 10%;
+  margin: 10px;
+  float: left;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px auto; /* Added margin for spacing */
+}
+
+.pagination .page-item {
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pagination .page-link:hover {
+  text-decoration: underline;
+}
+
+.pagination-info span {
+  font-size: large;
+  color: grey;
+}
+
+.pagination-info {
+  margin-left: 45%;
+}
+
+.pagination-info button {
+  margin: 5px;
+}
+
+/* Search Input Styles */
+.search {
+  width: 5%;
+  height: 30px;
+  font-size: 10px;
+}
+
+input.search {
+  width: 20%;
+}
+
+
+
+
+/* Base Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f7;
+}
+
+/* Container Styles */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3 {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #666;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #999;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 0 0 15px 0;
+  line-height: 1.5;
+}
+
+/* Link Styles */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: #a72323;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0069d9;
+}

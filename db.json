@@ -1,0 +1,20 @@
+{
+  "books": [
+    {
+      "id": "1b67",
+      "title": "title",
+      "des": "des"
+    },
+    {
+      "id": "50a0",
+      "title": "title",
+      "des": "des"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Fiction",
+      "id": "1"
+    }
+  ]
+}
